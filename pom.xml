@@ -59,6 +59,7 @@
       <version>${sonar.version}</version>
       <scope>test</scope>
     </dependency>
+
     <!-- Dependencies to plugins which are translated by this language pack -->
     <dependency>
       <groupId>org.codehaus.sonar.plugins</groupId>
