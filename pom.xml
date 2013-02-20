@@ -59,7 +59,6 @@
       <version>${sonar.version}</version>
       <scope>test</scope>
     </dependency>
-
     <!-- Dependencies to plugins which are translated by this language pack -->
     <dependency>
       <groupId>org.codehaus.sonar.plugins</groupId>
@@ -67,6 +66,12 @@
       <version>${bundle.core}</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>org.codehaus.sonar.plugins</groupId>
+      <artifactId>sonar-l10n-en-plugin</artifactId>
+      <version>${bundle.core}</version>
+      <scope>test</scope>
+    </dependency>	
     <dependency>
       <groupId>org.codehaus.sonar-plugins</groupId>
       <artifactId>sonar-jira-plugin</artifactId>
