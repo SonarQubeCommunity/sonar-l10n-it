@@ -41,13 +41,9 @@
     <sonar.pluginClass>org.sonar.plugins.l10n.ItalianPackPlugin</sonar.pluginClass>
     <sonar.version>3.3</sonar.version>
     <!-- Versions of the plugin translated by this language pack  -->
-    <bundle.abacus>0.1</bundle.abacus>
-    <bundle.branding>0.3</bundle.branding>
-    <bundle.core>3.4-RC3</bundle.core>
-    <bundle.javasquid>1.1</bundle.javasquid>
-    <bundle.jira>1.0</bundle.jira>
-    <bundle.motionchart>1.4</bundle.motionchart>
-    <bundle.squidjava>1.0</bundle.squidjava>
+    <bundle.core>3.4.1</bundle.core>
+    <bundle.jira>1.1</bundle.jira>
+    <bundle.motionchart>1.5</bundle.motionchart>
     <bundle.violationdensity>1.2</bundle.violationdensity>
   </properties>
 
@@ -65,18 +61,6 @@
     </dependency>
     <!-- Dependencies to plugins which are translated by this language pack -->
     <dependency>
-      <groupId>org.codehaus.sonar-plugins</groupId>
-      <artifactId>sonar-abacus-plugin</artifactId>
-      <version>${bundle.abacus}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.codehaus.sonar-plugins</groupId>
-      <artifactId>sonar-branding-plugin</artifactId>
-      <version>${bundle.branding}</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
       <groupId>org.codehaus.sonar.plugins</groupId>
       <artifactId>sonar-core-plugin</artifactId>
       <version>${bundle.core}</version>
@@ -87,13 +71,7 @@
       <artifactId>sonar-l10n-en-plugin</artifactId>
       <version>${bundle.core}</version>
       <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>org.codehaus.sonar-plugins.java</groupId>
-      <artifactId>sonar-squid-java-plugin</artifactId>
-      <version>${bundle.squidjava}</version>
-      <scope>test</scope>
-    </dependency>
+    </dependency>	
     <dependency>
       <groupId>org.codehaus.sonar-plugins</groupId>
       <artifactId>sonar-jira-plugin</artifactId>
