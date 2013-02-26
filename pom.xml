@@ -10,7 +10,7 @@
 
   <groupId>org.codehaus.sonar-plugins.l10n</groupId>
   <artifactId>sonar-l10n-it-plugin</artifactId>
-  <version>L10N/ITALIAN-1.0</version>
+  <version>1.0-SNAPSHOT</version>
   <packaging>sonar-plugin</packaging>
 
   <name>L10n :: Italian Pack</name>
@@ -34,7 +34,7 @@
     <connection>scm:git:git://github.com/SonarCommunity/sonar-l10n-it.git</connection>
     <developerConnection>scm:git:git@github.com:SonarCommunity/sonar-l10n-it.git</developerConnection>
     <url>https://github.com/SonarCommunity/sonar-l10n-it</url>
-    <tag>sonar-l10n-it-plugin-L10N/ITALIAN-1.0</tag>
+    <tag>HEAD</tag>
   </scm>
 
   <properties>
