@@ -17,7 +17,8 @@
   <name>L10n :: Italian Pack</name>
   <url>http://docs.codehaus.org/display/SONAR/Italian+Pack</url>
   <inceptionYear>2013</inceptionYear>
-  
+  <description>Language Pack for Italian</description>
+
   <organization>
     <name>Assioma.net</name>
     <url>http://www.assioma.net</url>
@@ -38,6 +39,11 @@
     <tag>HEAD</tag>
   </scm>
 
+  <issueManagement>
+	<system>JIRA</system>
+	<url>http://jira.codehaus.org/browse/SONARPLUGINS/component/15850</url>
+ </issueManagement>
+  
   <properties>
     <sonar.pluginClass>org.sonar.plugins.l10n.ItalianPackPlugin</sonar.pluginClass>
     <sonar.version>3.5</sonar.version>
