@@ -8,7 +8,7 @@
 	</parent>
 	<groupId>org.codehaus.sonar-plugins.l10n</groupId>
 	<artifactId>sonar-l10n-it-plugin</artifactId>
-	<version>1.4</version>
+	<version>1.4-SNAPSHOT</version>
 	<packaging>sonar-plugin</packaging>
 	<name>L10n :: Italian Pack</name>
 	<url>http://docs.codehaus.org/display/SONAR/Italian+Pack</url>
