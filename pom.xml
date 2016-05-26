@@ -11,7 +11,7 @@
 	<version>1.4-SNAPSHOT</version>
 	<packaging>sonar-plugin</packaging>
 	<name>L10n :: Italian Pack</name>
-	<url>http://docs.codehaus.org/display/SONAR/Italian+Pack</url>
+	<url>https://github.com/SonarQubeCommunity/sonar-l10n-it</url>
 	<inceptionYear>2014</inceptionYear>
 	<description>Language Pack for Italian</description>
 	<organization>
@@ -26,14 +26,14 @@
 		</license>
 	</licenses>
 	<scm>
-		<connection>scm:git:git://github.com/SonarCommunity/sonar-l10n-it.git</connection>
-		<developerConnection>scm:git:git@github.com:SonarCommunity/sonar-l10n-it.git</developerConnection>
-		<url>https://github.com/SonarCommunity/sonar-l10n-it</url>
+		<connection>scm:git:git://github.com/SonarQubeCommunity/sonar-l10n-it.git</connection>
+		<developerConnection>scm:git:git@github.com:SonarQubeCommunity/sonar-l10n-it.git</developerConnection>
+		<url>https://github.com/SonarQubeCommunity/sonar-l10n-it</url>
 		<tag>sonar-l10n-it-plugin</tag>
 	</scm>
 	<issueManagement>
-            <system>GitHub</system>
-            <url>https://github.com/SonarCommunity/sonar-l10n-it/issues</url>
+            <system>GitHub Issues</system>
+            <url>https://github.com/SonarQubeCommunity/sonar-l10n-it/issues</url>
         </issueManagement>
 	<properties>
 		<sonar.pluginClass>org.sonar.plugins.l10n.ItalianPackPlugin</sonar.pluginClass>
